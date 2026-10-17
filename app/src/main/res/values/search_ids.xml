@@ -1,0 +1,12 @@
+<resources>
+    <item name="app_search" type="id" />
+    <item name="app_search_clear" type="id" />
+    <item name="app_search_scope" type="id" />
+    <item name="app_search_count" type="id" />
+    <item name="app_search_empty" type="id" />
+    <item name="app_search_list" type="id" />
+    <item name="app_search_select_visible" type="id" />
+    <item name="app_search_clear_selection" type="id" />
+    <item name="app_search_result_title" type="id" />
+    <item name="app_search_result_detail" type="id" />
+</resources>

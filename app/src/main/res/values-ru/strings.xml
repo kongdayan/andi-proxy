@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Andi Proxy</string>
+    <string name="tile_label">Andi Proxy</string>
+    <string name="widget_description">Изменяемые переключатели прокси и точки доступа</string>
+    <string name="shortcut_hotspot">Поделиться точкой доступа</string>
+    <string name="shortcut_start">Прокси на телефоне</string>
+    <string name="shortcut_stop">Остановить прокси</string>
+    <string name="widget_phone_start">Телефон · Вкл.</string>
+    <string name="widget_share_start">Точка доступа · Вкл.</string>
+    <string name="widget_idle">Andi · Ожидание</string>
+</resources>

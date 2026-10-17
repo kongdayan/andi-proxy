@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Andi Proxy</string>
+    <string name="tile_label">Andi Proxy</string>
+    <string name="widget_description">Resizable phone-proxy and hotspot toggles</string>
+    <string name="shortcut_hotspot">Share hotspot</string>
+    <string name="shortcut_start">Phone proxy</string>
+    <string name="shortcut_stop">Stop proxy</string>
+    <string name="widget_phone_start">Phone · On</string>
+    <string name="widget_share_start">Hotspot · On</string>
+    <string name="widget_idle">Andi · Idle</string>
+</resources>

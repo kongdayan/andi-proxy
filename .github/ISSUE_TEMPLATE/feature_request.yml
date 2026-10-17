@@ -1,0 +1,52 @@
+name: Feature request
+description: Suggest a focused improvement
+title: "[feature] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Andi Proxy deliberately stays small, root-free and privacy-friendly. Features that need root, a cloud account, tracking or a large dependency are unlikely to be accepted. Please describe the user problem first.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem are you trying to solve?
+      description: Describe the situation, not only the proposed UI.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Existing apps, system settings or workarounds.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Phone VPN
+        - Hotspot / LAN sharing
+        - Rules and subscriptions
+        - DNS
+        - UI / accessibility
+        - Languages
+        - Build / release
+        - Documentation
+        - Other
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Checklist
+      options:
+        - label: I searched existing issues and the documentation.
+          required: true
+        - label: This does not require root, a cloud service or telemetry.
+          required: true

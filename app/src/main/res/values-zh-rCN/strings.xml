@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Andi Proxy</string>
+    <string name="tile_label">Andi 代理</string>
+    <string name="widget_description">可调整大小的本机代理与热点开关</string>
+    <string name="shortcut_hotspot">共享热点</string>
+    <string name="shortcut_start">本机代理</string>
+    <string name="shortcut_stop">停止代理</string>
+    <string name="widget_phone_start">本机 · 开启</string>
+    <string name="widget_share_start">热点 · 开启</string>
+    <string name="widget_idle">Andi · 未连接</string>
+</resources>

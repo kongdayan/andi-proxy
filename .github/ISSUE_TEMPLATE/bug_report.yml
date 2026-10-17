@@ -1,0 +1,84 @@
+name: Bug report
+description: Report something that does not work as expected
+title: "[bug] "
+labels: ["bug", "needs triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for testing Andi Proxy. Please remove server credentials, subscription tokens and personal data before submitting. For security problems use the private advisory link in SECURITY.md instead.
+  - type: input
+    id: version
+    attributes:
+      label: App version
+      description: Shown in Settings → About, or the release tag.
+      placeholder: "1.0.0"
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Device and Android version
+      description: Manufacturer, model, Android release and API level.
+      placeholder: "Pixel 8, Android 15 (API 35)"
+    validations:
+      required: true
+  - type: dropdown
+    id: abi
+    attributes:
+      label: APK / ABI
+      options:
+        - arm64-v8a
+        - armeabi-v7a
+        - x86_64
+        - x86
+        - universal
+        - Not sure
+    validations:
+      required: true
+  - type: checkboxes
+    id: mode
+    attributes:
+      label: What was active?
+      options:
+        - label: Phone VPN
+        - label: Hotspot sharing
+        - label: Existing Wi-Fi/LAN sharing
+        - label: Rule subscription
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open Servers and ...
+        2. Tap ...
+        3. See ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behaviour
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behaviour and error text
+      description: Paste the in-app text or a log excerpt with credentials removed.
+    validations:
+      required: true
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else?
+      description: Screenshots, device reports, whether the issue reproduces after a restart, etc.
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Checklist
+      options:
+        - label: I removed credentials, tokens and personal data from this report.
+          required: true
+        - label: I searched existing issues.
+          required: true

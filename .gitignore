@@ -1,0 +1,16 @@
+.tools/
+.gradle/
+**/build/
+local.properties
+*.jks
+*.keystore
+.signing/
+.DS_Store
+test-results/
+app/src/main/jniLibs/**/*.so
+scripts/__pycache__/
+*.apk
+*.aab
+.idea/
+*.iml
+.kotlin/

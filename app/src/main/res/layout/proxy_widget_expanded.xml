@@ -1,0 +1,8 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/widget_root" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:padding="12dp" android:background="@drawable/widget_background">
+    <TextView android:id="@+id/widget_state" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/widget_idle" android:textColor="#FFFFFF" android:textSize="17sp" android:textStyle="bold" android:maxLines="1" />
+    <TextView android:id="@+id/widget_detail" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:textColor="#C8DCFF" android:textSize="12sp" android:maxLines="2" android:paddingTop="4dp" />
+    <LinearLayout android:layout_width="match_parent" android:layout_height="44dp" android:orientation="horizontal">
+        <Button style="?android:attr/buttonBarButtonStyle" android:id="@+id/widget_vpn" android:layout_width="0dp" android:layout_weight="1" android:layout_height="match_parent" android:minHeight="0dp" android:minWidth="0dp" android:padding="2dp" android:text="@string/widget_phone_start" android:textSize="13sp" android:textColor="#FFFFFF" android:backgroundTint="#254E8D" />
+        <Button style="?android:attr/buttonBarButtonStyle" android:id="@+id/widget_share" android:layout_width="0dp" android:layout_weight="1" android:layout_height="match_parent" android:minHeight="0dp" android:minWidth="0dp" android:padding="2dp" android:text="@string/widget_share_start" android:textSize="13sp" android:textColor="#FFFFFF" android:backgroundTint="#254E8D" />
+    </LinearLayout>
+</LinearLayout>

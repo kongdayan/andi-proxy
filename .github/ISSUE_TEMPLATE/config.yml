@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security report
+    url: https://github.com/kongdayan/andi-proxy/security/advisories/new
+    about: Report a vulnerability privately. Do not open a public issue.
+  - name: Usage guide
+    url: https://github.com/kongdayan/andi-proxy/blob/main/docs/USAGE.md
+    about: Setup, hotspot sharing, rules and troubleshooting.
+  - name: Verification and known limits
+    url: https://github.com/kongdayan/andi-proxy/blob/main/docs/VERIFICATION.md
+    about: What has been tested on real devices, and what has not.
