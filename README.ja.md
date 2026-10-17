@@ -72,7 +72,7 @@ root も `iptables` も不要で、常時接続のリモートコントロール
 | 旧世代の x86 エミュレーター | [AndiProxy-x86.apk](https://github.com/kongdayan/andi-proxy/releases/latest/download/AndiProxy-x86.apk) |
 | どれを選べばいいか分からない／1 つのファイルで済ませたい | [AndiProxy-universal.apk](https://github.com/kongdayan/andi-proxy/releases/latest/download/AndiProxy-universal.apk) |
 
-**Android 8.0（API 26）** 以降が必要です。ユニバーサル APK はサイズがかなり大きいので、ABI ごとのファイルをおすすめします。各リリースには `SHA256SUMS` と、APK の署名方法を記した `SIGNING.txt` が含まれています。
+**Android 8.0（API 26）** 以降が必要です。ユニバーサル APK はサイズがかなり大きいので、ABI ごとのファイルをおすすめします。各リリースには `SHA256SUMS` と、APK の署名方法を記した `SIGNING.txt` が含まれています。1.0.0 より前の開発版をインストールしている場合は、先にアンインストールしてください。公開版は新しい署名キーを使用しています。
 
 Android から「アプリストアからのインストールではない」という警告が出ることがありますが、サイドロードしたオープンソース APK では想定どおりの動作です。本プロジェクトは Google Play では配信していません。
 

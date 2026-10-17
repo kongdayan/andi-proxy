@@ -72,7 +72,7 @@ Download the APK that matches your device from the [latest release](https://gith
 | Legacy x86 emulators | [AndiProxy-x86.apk](https://github.com/kongdayan/andi-proxy/releases/latest/download/AndiProxy-x86.apk) |
 | Not sure / one file for everything | [AndiProxy-universal.apk](https://github.com/kongdayan/andi-proxy/releases/latest/download/AndiProxy-universal.apk) |
 
-Requires **Android 8.0 (API 26)** or newer. The universal APK is much larger; prefer the ABI-specific file. Each release includes `SHA256SUMS` and a `SIGNING.txt` note describing how the APKs were signed.
+Requires **Android 8.0 (API 26)** or newer. The universal APK is much larger; prefer the ABI-specific file. Each release includes `SHA256SUMS` and a `SIGNING.txt` note describing how the APKs were signed. If you installed a pre-1.0.0 development build, uninstall it first: the public release uses a new signing key.
 
 Android may warn that the app was not installed from an app store. That is expected for a sideloaded open-source APK. The project is not on Google Play.
 

@@ -19,6 +19,7 @@ The first public, reproducible release.
 ### Changed
 
 - Version bumped to 1.0.0 (`versionCode` 10000).
+- Public 1.0.0 builds use a new release signing key; uninstall pre-1.0.0 debug builds before upgrading.
 - The core fetch script now downloads and verifies all supported Android ABIs and the macOS host core.
 - App labels, notification text, widget text, tile text and status strings are localised at runtime.
 - `ProxyService` now exposes an explicit failure flag instead of matching localised status text.

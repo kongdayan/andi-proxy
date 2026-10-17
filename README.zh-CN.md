@@ -72,7 +72,7 @@ Andi Proxy 能把一部普通的 Android 手机变成一台小巧、自成一体
 | 旧版 x86 模拟器 | [AndiProxy-x86.apk](https://github.com/kongdayan/andi-proxy/releases/latest/download/AndiProxy-x86.apk) |
 | 不确定选哪个 / 想一个文件搞定所有设备 | [AndiProxy-universal.apk](https://github.com/kongdayan/andi-proxy/releases/latest/download/AndiProxy-universal.apk) |
 
-需要 **Android 8.0（API 26）** 或更高版本。通用 APK 的体积大得多，建议优先选择对应 ABI 的文件。每个版本都附带 `SHA256SUMS` 以及一份 `SIGNING.txt` 说明，描述 APK 的签名方式。
+需要 **Android 8.0（API 26）** 或更高版本。通用 APK 的体积大得多，建议优先选择对应 ABI 的文件。每个版本都附带 `SHA256SUMS` 以及一份 `SIGNING.txt` 说明，描述 APK 的签名方式。如果你安装过 1.0.0 之前的开发版，请先卸载：公开版本使用了新的签名密钥。
 
 Android 可能会提示该应用并非来自应用商店。对于侧载安装的开源 APK，这是正常现象。本项目未上架 Google Play。
 

@@ -72,7 +72,7 @@ root도, `iptables`도, 상시 원격 제어도, 숨겨진 클라우드도 없�
 | 레거시 x86 에뮬레이터 | [AndiProxy-x86.apk](https://github.com/kongdayan/andi-proxy/releases/latest/download/AndiProxy-x86.apk) |
 | 잘 모르겠다면 / 모든 기기용 단일 파일 | [AndiProxy-universal.apk](https://github.com/kongdayan/andi-proxy/releases/latest/download/AndiProxy-universal.apk) |
 
-**Android 8.0(API 26)** 이상이 필요합니다. 유니버설 APK는 용량이 훨씬 크므로 ABI 전용 파일을 권장합니다. 각 릴리스에는 `SHA256SUMS`와 APK 서명 방식을 설명하는 `SIGNING.txt`가 포함됩니다.
+**Android 8.0(API 26)** 이상이 필요합니다. 유니버설 APK는 용량이 훨씬 크므로 ABI 전용 파일을 권장합니다. 각 릴리스에는 `SHA256SUMS`와 APK 서명 방식을 설명하는 `SIGNING.txt`가 포함됩니다. 1.0.0 이전 개발 빌드를 설치했다면 먼저 제거하세요. 공개 릴리스는 새 서명 키를 사용합니다.
 
 Android에서 앱 스토어를 통해 설치되지 않았다는 경고가 표시될 수 있습니다. 오픈소스 APK를 직접 설치할 때 나타나는 정상적인 경고입니다. 이 프로젝트는 Google Play에 배포되지 않습니다.
 
