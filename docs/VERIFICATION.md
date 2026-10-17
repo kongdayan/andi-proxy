@@ -11,12 +11,12 @@ This page records what has actually been exercised, on which kind of device, and
 | Phone VPN, authenticated upstream, hotspot sharing, LAN sharing | Verified on a retail Android 16.0 arm64 phone (see below) |
 | Subscription parsing and 392-rule real-world list | Verified on device and in core smoke tests |
 | Widget resize, Quick Settings tile, long-press shortcuts | Verified on device |
-| English/Japanese/Korean/Russian UI | Build-verified; interactive device verification is welcome |
+| English/Japanese/Korean/Russian UI | Build-verified; interactive smoke test on an Android 15 arm64 emulator |
 | Android 16.1 app-defined hotspot name/password | Not device-verified |
 | armeabi-v7a, x86, x86_64 | Built, not device-verified |
 | 16 KiB memory-page devices | Not verified |
 
-The networking code, core version, route builder and service lifecycle are the same code path that was device-verified for 0.3. The 1.0.0 changes are primarily localisation, the About page, ABI splits and the release pipeline. The 1.0.0 APK was checked with unit tests, lint, `apksigner`, `aapt` and native-library inspection; a full re-run of the hardware matrix below on 1.0.0 is still welcome.
+The networking code, core version, route builder and service lifecycle are the same code path that was device-verified for 0.3. The 1.0.0 changes are primarily localisation, the About page, ABI splits and the release pipeline. The 1.0.0 APK was checked with unit tests, lint, `apksigner`, `aapt` and native-library inspection. Its home, settings, About page and language switching were smoke-tested on an Android 15 arm64 emulator in English, Simplified Chinese, Japanese, Korean and Russian. A full re-run of the hardware matrix below on 1.0.0 is still welcome.
 
 ## Test device
 
