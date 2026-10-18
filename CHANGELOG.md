@@ -2,6 +2,16 @@
 
 All notable changes to Andi Proxy are documented here. The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and the project follows [Semantic Versioning](https://semver.org/).
 
+## 1.0.1 - 2026-10-18
+
+Privacy cleanup; no proxy behaviour changes.
+
+### Changed
+
+- Removed the in-app author introduction, personal links and footer. The About page now focuses on the project, source, licences and privacy.
+- Removed personal author metadata from the repository history; commits now use a project identity.
+- Version bumped to 1.0.1 (`versionCode` 10001).
+
 ## 1.0.0 - 2026-10-18
 
 The first public, reproducible release.

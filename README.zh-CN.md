@@ -43,10 +43,6 @@ Andi Proxy 能把一部普通的 Android 手机变成一台小巧、自成一体
 
 截图使用英文界面。应用还提供简体中文、日语、韩语和俄语。可在「设置 → 语言」或 Android 的分应用语言设置中切换。
 
-| Japanese About | Russian home |
-| --- | --- |
-| ![Japanese About](docs/images/about-ja.png) | ![Russian home](docs/images/home-ru.png) |
-
 ## 功能
 
 | 类别 | 你能得到什么 |
@@ -221,9 +217,3 @@ scripts/                            pinned core fetch, i18n validation, smoke te
 Andi Proxy 以 **GPL-3.0-or-later** 许可证发布，详见 [LICENSE](LICENSE) 与 [COPYRIGHT](COPYRIGHT)。随附的 sing-box 二进制同样为 GPL-3.0-or-later；hev-socks5-tunnel 为 MIT。确切的版本、源码链接与 SHA-256 摘要列于 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。应用图标为原创矢量素材。
 
 本项目是独立项目，与 SagerNet、sing-box、hev-socks5-tunnel、Samsung 或 Google 均无隶属关系。
-
-## 关于作者
-
-**Andi Proxy**（[contributors](https://github.com/kongdayan/andi-proxy)）是一位常驻上海的自由开发者。Andi Proxy 与 [the companion project](https://github.com/kongdayan/andi-proxy) 是同一系列的作品 —— 后者是一款 macOS 原生健康伴侣应用，可把 Garmin 手表数据直接同步到 Mac。两个项目贯穿同一个理念：把数据留在你自己的设备上，让日常工具小巧、安静、可靠。
-
-作者与项目链接也随应用一起提供，位于 **设置 → 作者与开源信息**。

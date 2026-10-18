@@ -43,10 +43,6 @@ root も `iptables` も不要で、常時接続のリモートコントロール
 
 スクリーンショットは英語 UI です。アプリは簡体字中国語・日本語・韓国語・ロシア語にも対応しています。「設定 → 言語」または Android のアプリごとの言語設定で切り替えられます。
 
-| Japanese About | Russian home |
-| --- | --- |
-| ![Japanese About](docs/images/about-ja.png) | ![Russian home](docs/images/home-ru.png) |
-
 ## 機能
 
 | 分野 | できること |
@@ -221,9 +217,3 @@ Issue、プルリクエスト、実機での動作報告、翻訳の修正を歓
 Andi Proxy は **GPL-3.0-or-later** の下でライセンスされています。詳しくは [LICENSE](LICENSE) と [COPYRIGHT](COPYRIGHT) を参照してください。同梱の sing-box バイナリは GPL-3.0-or-later、hev-socks5-tunnel は MIT です。正確なバージョン、ソースへのリンク、SHA-256 ダイジェストは [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) に記載しています。アプリアイコンはオリジナルのベクターアセットです。
 
 本プロジェクトは独立したプロジェクトであり、SagerNet、sing-box、hev-socks5-tunnel、Samsung、Google とは関係ありません。
-
-## 作者について
-
-**Andi Proxy**（[contributors](https://github.com/kongdayan/andi-proxy)）は上海を拠点とする独立開発者です。Andi Proxy は、Garmin ウォッチのデータを Mac に直接同期するネイティブ macOS 向けヘルスコンパニオンアプリ [the companion project](https://github.com/kongdayan/andi-proxy) の兄弟プロジェクトにあたります。どちらのプロジェクトにも同じ考え方が流れています。データは自分のデバイスの手元に置き、日々使うツールは小さく、静かで、頼りになるものであるべきだと、そういう考え方です。
-
-作者とプロジェクトへのリンクは、アプリ内の「設定 → 作者とオープンソース情報」にも掲載しています。

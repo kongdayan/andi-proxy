@@ -43,10 +43,6 @@ root도, `iptables`도, 상시 원격 제어도, 숨겨진 클라우드도 없�
 
 스크린샷은 영어 UI입니다. 앱은 중국어(간체), 일본어, 한국어, 러시아어도 지원합니다. 설정 → 언어 또는 Android의 앱별 언어 설정에서 변경할 수 있습니다.
 
-| Japanese About | Russian home |
-| --- | --- |
-| ![Japanese About](docs/images/about-ja.png) | ![Russian home](docs/images/home-ru.png) |
-
 ## 기능
 
 | 영역 | 제공 기능 |
@@ -221,9 +217,3 @@ scripts/                            고정 코어 내려받기, i18n 검증, 스
 Andi Proxy는 **GPL-3.0-or-later** 라이선스로 배포됩니다. [LICENSE](LICENSE)와 [COPYRIGHT](COPYRIGHT)를 참고하세요. 함께 포함된 sing-box 바이너리는 GPL-3.0-or-later이고, hev-socks5-tunnel은 MIT입니다. 정확한 버전, 소스 링크, SHA-256 다이제스트는 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)에 정리되어 있습니다. 앱 아이콘은 직접 제작한 벡터 자산입니다.
 
 이 독립 프로젝트는 SagerNet, sing-box, hev-socks5-tunnel, Samsung, Google과 제휴 관계가 없습니다.
-
-## 작성자 소개
-
-**Andi Proxy**([contributors](https://github.com/kongdayan/andi-proxy))은 상하이에서 활동하는 독립 개발자입니다. Andi Proxy는 Garmin 시계 데이터를 Mac으로 직접 동기화하는 네이티브 macOS 헬스 컴패니언 앱 [the companion project](https://github.com/kongdayan/andi-proxy)의 자매 프로젝트입니다. 두 프로젝트에는 같은 생각이 흐릅니다. 데이터는 사용자의 기기에 두고, 일상적인 도구는 작고 차분하며 믿을 수 있게 만드는 것입니다.
-
-작성자와 프로젝트 링크는 앱의 **설정 → 작성자 및 오픈소스 정보**에도 포함되어 있습니다.

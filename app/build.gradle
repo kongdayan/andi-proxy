@@ -1,7 +1,7 @@
 plugins { id 'com.android.application' }
 
-def releaseVersionName = (project.findProperty('versionName') ?: '1.0.0').toString()
-def releaseVersionCode = (project.findProperty('versionCode') ?: '10000').toString().toInteger()
+def releaseVersionName = (project.findProperty('versionName') ?: '1.0.1').toString()
+def releaseVersionCode = (project.findProperty('versionCode') ?: '10001').toString().toInteger()
 def signingStore = System.getenv('ANDI_KEYSTORE') ?: project.findProperty('andi.keystore')
 def signingStorePassword = System.getenv('ANDI_KEYSTORE_PASSWORD') ?: project.findProperty('andi.keystorePassword')
 def signingKeyAlias = System.getenv('ANDI_KEY_ALIAS') ?: project.findProperty('andi.keyAlias')
@@ -20,8 +20,6 @@ android {
         versionName releaseVersionName
         testInstrumentationRunner project.findProperty('deviceRunner') ?: 'com.andi.proxy.DeviceSmokeRunner'
         buildConfigField 'String', 'PROJECT_URL', '"https://github.com/kongdayan/andi-proxy"'
-        buildConfigField 'String', 'AUTHOR_URL', '"https://github.com/kongdayan/andi-proxy"'
-        buildConfigField 'String', 'AUTHOR_PROJECT_URL', '"https://github.com/kongdayan/andi-proxy"'
     }
 
     signingConfigs {

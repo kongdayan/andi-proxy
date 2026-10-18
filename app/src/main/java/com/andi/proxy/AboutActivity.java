@@ -20,7 +20,7 @@ import java.io.ByteArrayOutputStream;
 import java.io.InputStream;
 import java.nio.charset.StandardCharsets;
 
-/** Author, source, licence and privacy information bundled with the APK. */
+/** Project, source, licence and privacy information bundled with the APK. */
 public final class AboutActivity extends Activity {
     private int GREEN, INK, MUTED, BACK, CARD;
     private boolean dark;
@@ -49,14 +49,9 @@ public final class AboutActivity extends Activity {
         setContentView(scroll);
 
         header();
-        author();
         project();
         components();
         privacy();
-        TextView footer = text(L.t("由 Andi Proxy 用心制作"), 12, MUTED);
-        footer.setGravity(Gravity.CENTER);
-        footer.setPadding(0, dp(18), 0, dp(8));
-        content.addView(footer);
     }
 
     private void header() {
@@ -80,40 +75,6 @@ public final class AboutActivity extends Activity {
         version.setGravity(Gravity.CENTER);
         version.setPadding(0, dp(6), 0, dp(16));
         content.addView(version);
-    }
-
-    private void author() {
-        LinearLayout card = card(L.t("关于作者"));
-        LinearLayout row = new LinearLayout(this);
-        row.setGravity(Gravity.CENTER_VERTICAL);
-        row.setPadding(0, dp(4), 0, dp(4));
-
-        TextView monogram = new TextView(this);
-        monogram.setText("D");
-        monogram.setTextColor(Color.WHITE);
-        monogram.setTextSize(30);
-        monogram.setTypeface(null, Typeface.BOLD);
-        monogram.setGravity(Gravity.CENTER);
-        GradientDrawable avatar = new GradientDrawable();
-        avatar.setShape(GradientDrawable.OVAL);
-        avatar.setColor(GREEN);
-        monogram.setBackground(avatar);
-        row.addView(monogram, new LinearLayout.LayoutParams(dp(60), dp(60)));
-
-        LinearLayout labels = new LinearLayout(this);
-        labels.setOrientation(LinearLayout.VERTICAL);
-        labels.setPadding(dp(14), 0, 0, 0);
-        TextView authorName = text("Andi Proxy", 20, INK);
-        authorName.setTypeface(null, Typeface.BOLD);
-        labels.addView(authorName);
-        labels.addView(text("contributors · " + L.t(""), 13, MUTED));
-        row.addView(labels);
-        card.addView(row);
-
-        card.addView(text(L.t("独立开发者。喜欢为日常设备做一些小而可靠的工具，让数据留在自己手里。"), 14, INK));
-        button(card, L.t("GitHub 主页"), () -> open(BuildConfig.AUTHOR_URL));
-        button(card, L.t("另一个项目：the companion project"), () -> open(BuildConfig.AUTHOR_PROJECT_URL));
-        card.addView(text(L.t("the companion project 把 Garmin 手表的数据直接同步到 Mac，不经过手机。"), 12, MUTED));
     }
 
     private void project() {

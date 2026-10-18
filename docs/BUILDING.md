@@ -67,7 +67,7 @@ Install a specific APK with `adb install -r <path>`.
 ./gradlew :app:assembleRelease -PversionName=1.2.3 -PversionCode=10203
 ```
 
-Defaults are `1.0.0` / `10000`. The release workflow derives the version from the tag (`v1.2.3` → `1.2.3`) and computes `versionCode` as `major * 10000 + minor * 100 + patch`.
+Defaults are `1.0.1` / `10001`. The release workflow derives the version from the tag (`v1.2.3` → `1.2.3`) and computes `versionCode` as `major * 10000 + minor * 100 + patch`.
 
 ## Release signing
 
@@ -87,7 +87,7 @@ export ANDI_KEYSTORE="$PWD/.signing/andi-release.jks"
 export ANDI_KEYSTORE_PASSWORD='…'
 export ANDI_KEY_ALIAS='andi'
 export ANDI_KEY_PASSWORD='…'
-./gradlew :app:assembleRelease -PversionName=1.0.0 -PversionCode=10000
+./gradlew :app:assembleRelease -PversionName=1.0.1 -PversionCode=10001
 ```
 
 If no keystore is configured, the release build falls back to the debug signing key so contributors can still build installable APKs. Such APKs are not suitable for a long-lived release channel: Android requires the same signing key for updates. The CI workflow writes `SIGNING.txt` into the release assets and emits a warning when it falls back to debug signing.
@@ -130,8 +130,8 @@ The checker extracts keys from `L.t(...)` / `L.f(...)`, compares them with `app/
 To publish:
 
 ```sh
-git tag -a v1.0.0 -m "Andi Proxy 1.0.0"
-git push origin v1.0.0
+git tag -a v1.0.1 -m "Andi Proxy 1.0.1"
+git push origin v1.0.1
 ```
 
 The workflow attaches:

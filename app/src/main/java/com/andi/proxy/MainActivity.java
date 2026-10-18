@@ -224,7 +224,7 @@ public final class MainActivity extends Activity {
         button(advanced,L.t("设备诊断"),()->worker.execute(()->{ String r=DeviceDiagnostics.report(CoreRunner.binary(this)); runOnUiThread(()->help(L.t("设备诊断"),r)); }));
         LinearLayout about=card(L.t("关于"));
         about.addView(text(L.t("Andi Proxy · 无需 root 的热点代理共享。"),14,INK));
-        button(about,L.t("作者与开源信息"),()->startActivity(new Intent(this,AboutActivity.class)));
+        button(about,L.t("开源信息"),()->startActivity(new Intent(this,AboutActivity.class)));
         button(about,L.t("查看源代码"),()->openUrl(BuildConfig.PROJECT_URL));
         button(content,L.t("怎么使用"),this::usageGuide);
     }

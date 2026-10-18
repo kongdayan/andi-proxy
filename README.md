@@ -43,10 +43,6 @@ There is no root, no `iptables`, no always-on remote control, and no hidden clou
 
 The UI is shown in English. The app also ships Simplified Chinese, Japanese, Korean and Russian. Change it in Settings → Language, or in Android's per-app language settings.
 
-| Japanese About | Russian home |
-| --- | --- |
-| ![Japanese About](docs/images/about-ja.png) | ![Russian home](docs/images/home-ru.png) |
-
 ## Features
 
 | Area | What you get |
@@ -221,9 +217,3 @@ If you add a user-facing string, add it to `app/src/main/assets/i18n/en.json` (a
 Andi Proxy is licensed under **GPL-3.0-or-later**. See [LICENSE](LICENSE) and [COPYRIGHT](COPYRIGHT). The bundled sing-box binary is GPL-3.0-or-later; hev-socks5-tunnel is MIT. Exact versions, source links and SHA-256 digests are listed in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). The app icon is an original vector asset.
 
 This independent project is not affiliated with SagerNet, sing-box, hev-socks5-tunnel, Samsung or Google.
-
-## About the author
-
-**Andi Proxy** ([contributors](https://github.com/kongdayan/andi-proxy)) is an independent developer in Shanghai. Andi Proxy is a sibling of [the companion project](https://github.com/kongdayan/andi-proxy), a native macOS health companion that syncs Garmin watch data directly to the Mac. The same idea runs through both projects: keep the data on your own devices and make everyday tools feel small, calm and dependable.
-
-The author and project links are also bundled in the app under **Settings → Author and open-source information**.

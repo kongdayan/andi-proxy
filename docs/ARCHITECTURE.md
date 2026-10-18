@@ -14,7 +14,7 @@ There is no root component, no `iptables` rule, no background polling service an
 | --- | --- |
 | `MainActivity` | Home, Servers, Rules, Settings; runtime state polling; permission and VPN consent flows |
 | `AppPickerActivity` | Searchable per-app direct list, including system apps |
-| `AboutActivity` | Author, source, releases, licences, privacy notes bundled in the APK |
+| `AboutActivity` | Project, source, releases, licences and privacy notes bundled in the APK |
 | `L` / `AndiApp` | Runtime localisation, language preference and Android per-app locale integration |
 | `ProxyService` | Foreground service; hotspot/LAN lifecycle, core start/stop/apply, notifications, exit check |
 | `LocalVpnService` | `VpnService`, TUN file descriptor, per-app exclusions, hev-socks5-tunnel lifecycle |
