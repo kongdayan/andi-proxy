@@ -26,7 +26,7 @@ The app makes network connections only for the functions you enable:
 4. **DNS** — proxied domains are resolved through Cloudflare DoH via the proxy; direct domains use `223.5.5.5`; server hostnames use direct DNS bootstrap.
 5. **Exit check** — optional, user-triggered. The app sends a TLS request to `api.ipify.org` through the local proxy to display the current exit IPv4 address.
 
-No request is sent to the project author. The app does not collect crash reports or usage statistics. GitHub issues are handled on GitHub, not from inside the app.
+No request is sent to the project maintainers. The app does not collect crash reports or usage statistics. GitHub issues are handled on GitHub, not from inside the app.
 
 ## Android permissions
 

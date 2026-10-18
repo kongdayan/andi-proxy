@@ -72,7 +72,7 @@ Priority: manual proxy domains → manual direct domains → manual direct CIDRs
 - **Appearance**: follow the system, light or dark theme. Tap **Apply theme**.
 - **Language**: system, English, 简体中文, 日本語, 한국어 or Русский. On Android 13+, the same choice is available in Android's per-app language settings.
 - **Shortcuts**: add a resizable home-screen widget or a Quick Settings tile. Long-press the widget and drag its handles to resize it.
-- **Advanced settings**: optional local proxy authentication for shared clients, device diagnostics, and the About/author page.
+- **Advanced settings**: optional local proxy authentication for shared clients, device diagnostics, and the open-source information page.
 
 ## 6. Troubleshooting
 
